@@ -96,25 +96,25 @@ error();
 
 //o:the given grammer is 
 
-E->TE'
-E'->+TE'|epsilon
-T->FT'
-T'->*FT'|epsilon
-F->(E)|i
-ENTER THE STRING TO BE PARSED:i
-$E
-$E
+//E->TE'
+//E'->+TE'|epsilon
+//T->FT'
+//T'->*FT'|epsilon
+//F->(E)|i
+//ENTER THE STRING TO BE PARSED:i
+//$E
+//$E
 
-E->TE'$AT
+//E->TE'$AT
 
-T'->FT'$ABF
+//T'->FT'$ABF
 
-F->i$ABi
+//F->i$ABi
 
-match of i$ABi
+//match of i$ABi
 
-T'->epsilon$ABi
+//T'->epsilon$ABi
 
-E'->epsilon$ABi
+//E'->epsilon$ABi
 
-successful parsing of the string
+//successful parsing of the string
