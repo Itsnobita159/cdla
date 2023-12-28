@@ -28,7 +28,7 @@ case 5: for (i = a; b > 1; b--) a = a * i; break;
 op=0;
 }
 }
-void main(int argv,char *argc[]) {
+int main(int argv,char *argc[]) {
 printf("\nEnter expression : ");
 yylex();
 }
@@ -36,5 +36,13 @@ int yywrap() {
 return 1;
 }
 
+// EXECUTION:
+// flex calculatorLEX.l
+// gcc lex.yy.c -o calculator -ll
+// ./calculator
+
+
+
+
 //o: Enter expression:2+3
-The Answer: 5.000000
+// The Answer: 5.000000
