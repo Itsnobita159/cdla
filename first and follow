@@ -48,9 +48,9 @@ int main() {
 }
 
 //o:Enter the number of production rules: 2
-Enter production rule 1 (format: nonterminal -> production): S->AB
-Enter production rule 2 (format: nonterminal -> production): A->a
-First(S)={AB}
-Follow(S)={}
-First(A)={a}
-Follow(A)={}
+//Enter production rule 1 (format: nonterminal -> production): S->AB
+//Enter production rule 2 (format: nonterminal -> production): A->a
+//First(S)={AB}
+//Follow(S)={}
+//First(A)={a}
+//Follow(A)={}
