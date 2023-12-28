@@ -84,7 +84,7 @@ return 0;
 }
 
 //o:Expression : a+b*c
-postfix : abc*+
+//postfix : abc*+
 
-t = b * c
-t = a + t
+//t = b * c
+//t = a + t
