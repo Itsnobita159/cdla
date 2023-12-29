@@ -26,3 +26,6 @@ if (length == count) printf("Valid String", A);
 else printf("Invalid String", A);
 return 0;
 }
+
+//o:Enter a string: int a = 3;
+//Valid String
