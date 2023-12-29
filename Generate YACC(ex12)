@@ -36,3 +36,12 @@ void yyerror(const char *s) {
     fprintf(stderr, "Error: %s\n", s);
 }
 
+//exection:
+//yacc -d calculator.y
+//flex lexer.l
+//gcc -o calculator lex.yy.c y.tab.c -lm
+
+//o:Enter an expression: 2 + 3 * 4
+//Result: 14.000000
+
+
