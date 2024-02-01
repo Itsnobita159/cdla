@@ -11,9 +11,10 @@
 
 // Function to check if a string is a keyword
 int isKeyword(char *token) {
+int i;
     char keywords[][10] = {"int", "float", "char", "if", "else", "while", "for", "return"};
 
-    for (int i = 0; i < sizeof(keywords) / sizeof(keywords[0]); i++) {
+    for (i = 0; i < sizeof(keywords) / sizeof(keywords[0]); i++) {
         if (strcmp(token, keywords[i]) == 0) {
             return 1;
         }
