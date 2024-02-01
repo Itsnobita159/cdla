@@ -61,3 +61,13 @@ int i;
     }
     return 0;
 }
+
+
+//output:
+//Enter the input string:xyz
+//enter the number of production rules:3
+//enter the production rules:
+//x
+//y
+//z
+//parsing successful!
